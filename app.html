@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>App Details</title>
+  <meta name="description" content="App details, screenshots and download links." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">▲</span>
+        <span class="brand-name">My Studio</span>
+      </a>
+      <nav class="site-nav">
+        <a href="index.html">Apps</a>
+        <a href="#footer">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main">
+    <a class="back-link" href="index.html">&larr; All apps</a>
+    <div id="detail"></div>
+  </main>
+
+  <footer class="site-footer" id="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> My Studio. All rights reserved.</p>
+      <p class="footer-links">
+        <a href="mailto:hello@example.com">hello@example.com</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Lightbox for screenshots -->
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+    <img class="lightbox-img" id="lightbox-img" src="" alt="" />
+  </div>
+
+  <script src="data/apps.js"></script>
+  <script src="js/util.js"></script>
+  <script src="js/detail.js"></script>
+</body>
+</html>

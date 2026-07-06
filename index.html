@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Apps &amp; Games</title>
+  <meta name="description" content="A showcase of my Android and iOS apps and games." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">▲</span>
+        <span class="brand-name">My Studio</span>
+      </a>
+      <nav class="site-nav">
+        <a href="index.html">Apps</a>
+        <a href="#footer">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero-title">Apps &amp; games I've built</h1>
+      <p class="hero-subtitle">
+        A collection of mobile apps and games for Android and iOS.
+        Tap any app to see screenshots, a preview video, and download links.
+      </p>
+    </div>
+  </section>
+
+  <main class="container main">
+    <div class="toolbar">
+      <div class="filters" id="filters" role="tablist" aria-label="Filter by category"></div>
+      <div class="app-count" id="app-count"></div>
+    </div>
+
+    <div class="app-grid" id="app-grid"></div>
+    <p class="empty-state" id="empty-state" hidden>No apps in this category yet.</p>
+  </main>
+
+  <footer class="site-footer" id="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> My Studio. All rights reserved.</p>
+      <p class="footer-links">
+        <a href="mailto:hello@example.com">hello@example.com</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="data/apps.js"></script>
+  <script src="js/util.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
