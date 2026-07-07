@@ -36,23 +36,23 @@
 
 const APPS = [
   {
-    id: "space-blaster",
-    name: "Space Blaster",
-    tagline: "Fast-paced arcade shooter for the whole galaxy.",
+    id: "com.xufagroup.eight_neighbors",
+    name: "Eight Neighbors Gems",
+    tagline: "Tap groups of matching shapes to clear them.",
     category: "Game",
     platforms: ["android", "ios"],
-    logo: "assets/logos/space-blaster.svg",
+    logo: "https://play-lh.googleusercontent.com/dHbB3Vk8ABIPr0ZQIXZ8HZJxi-xbv7Oj2WB6L6OVc1WWObO6d82SUtsOkVr7Ob-3QXnWikjCYo1IOa5CV26D=w240-h480-rw",
     description:
-      "Blast through waves of asteroids and alien fleets in this retro-inspired arcade shooter. Upgrade your ship, unlock new weapons, and climb the global leaderboards. Easy to pick up, hard to put down.",
-    youtube: "aqz-KE-bpKQ",
+      "Eight Neighbors is a fun and relaxing puzzle game where you tap groups of matching shapes to clear them from the board. Shapes connect in all 8 directions — including diagonals — so think before you tap!",
+    youtube: "PLRRrYDmRAnFI",
     screenshots: [
       "assets/screenshots/space-blaster-1.svg",
       "assets/screenshots/space-blaster-2.svg",
       "assets/screenshots/space-blaster-3.svg"
     ],
-    googlePlay: "https://play.google.com/store/apps",
-    appStore: "https://www.apple.com/app-store/",
-    featured: true
+    googlePlay: "https://play.google.com/store/apps/details?id=com.xufagroup.eight_neighbors",
+    appStore: "",
+    featured: false
   },
   {
     id: "focus-flow",
@@ -68,7 +68,7 @@ const APPS = [
       "assets/screenshots/focus-flow-1.svg",
       "assets/screenshots/focus-flow-2.svg"
     ],
-    googlePlay: "https://play.google.com/store/apps",
+    googlePlay: "",
     appStore: "",
     featured: true
   },
@@ -83,23 +83,30 @@ const APPS = [
       "Sharpen your mind with over a hundred hand-crafted puzzles spanning logic, pattern-matching, and spatial reasoning. New puzzle packs added every month.",
     youtube: "",
     screenshots: [],
-    googlePlay: "https://play.google.com/store/apps",
+    googlePlay: "",
     appStore: "",
     featured: false
   },
   {
-    id: "recipe-box",
-    name: "Recipe Box",
-    tagline: "Your kitchen, organized.",
-    category: "Lifestyle",
-    platforms: ["ios"],
-    logo: "",
+    id: "com.xufagroup.ai_travel_planner",
+    name: "AI Travel Planner",
+    tagline: "Plan your next adventure with AI.",
+    category: "Application",
+    platforms: ["android", "ios"],
+    logo: "https://play-lh.googleusercontent.com/Ytp7s7mbPxAwA2WseQQ9wyHyQk9QAktKocWzxkhP8oUGQAM_mCpxfJ9r5ikEFw8nVgtUtm54FvdoYska2hMq0g=w240-h480-rw",
     description:
-      "Save recipes from anywhere, build weekly meal plans, and generate a smart shopping list in one tap. Recipe Box keeps your favorite meals right at your fingertips.",
+      "Our application revolutionizes travel planning and exploration with the power of artificial intelligence (AI). Forget generic travel guides - TravelGen learns your preferences and curates personalized recommendations for destinations, attractions, restaurants, and hidden gems worldwide. Our intelligent algorithms will analyze millions of data points, including user reviews, social media trends, and local insights, to craft a unique itinerary tailored to your interests.",
     youtube: "",
-    screenshots: [],
-    googlePlay: "",
-    appStore: "https://www.apple.com/app-store/",
+    screenshots: [
+      'https://play-lh.googleusercontent.com/ekQz_atDio_W4sl5HFQ5jcbIBc3THoQZsJf_S-oc4V0o65_P-3H8ALCrdsAG_sKRFVvkNqJw0Aud9pp_ZsYp=w2560-h1440-rw',
+      'https://play-lh.googleusercontent.com/XHWuJBbFJb9Pkqvn3Tx2_4ohrNoGHnNVk21QoHCQvLVbk_mK1Y7flxl3Z64Iyiq-p0ZYuRws22jkc7UsA9PVMcw=w2560-h1440-rw',
+      'https://play-lh.googleusercontent.com/yFw05QKCCSDIvrIE7APgh2KYBiwGBIoEMB9aovgiGSAhec1Lhz4GF_h2HRVEvfoi4qMIm34P4wWY1RMYBk_t=w2560-h1440-rw',
+      'https://play-lh.googleusercontent.com/GVh7NA0ZkpAy1Mjgdseq4ZSomt0jNkb2NGwzCoMjHgrwSYydlVaZ2Klgln7Zk3OvEENXW4r7lVAArRsxL-mtLQ=w2560-h1440-rw',
+      'https://play-lh.googleusercontent.com/UreyHmrZr89IVtdl56sXvY0F_VJr7xptewf5nfCHqcuHwDf-uVWQ9ZO85S293lEB3QpaEi_rI-lNKusBT-sIZA=w2560-h1440-rw',
+      'https://play-lh.googleusercontent.com/fbWErm59xzn6rEcdiudXbrY1oEQ4_9n9hpk1XBrNBkTxxleCs1wMgHYwdxsAEDzhQ7YMgftJ1YwyIUb6p0_ii7Q=w2560-h1440-rw'
+    ],
+    googlePlay: "https://play.google.com/store/apps/details?id=com.xufagroup.ai_travel_planner",
+    appStore: "",
     featured: false
   }
 ];

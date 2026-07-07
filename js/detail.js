@@ -127,7 +127,8 @@
   }
 
   /* ---- YouTube video ---- */
-  const vid = youtubeId(app.youtube);
+  const vid = app.youtube;
+  // console.log("YouTube video ID:", app.youtube);
   if (vid) {
     root.appendChild(
       el("section", { class: "detail-section" }, [
